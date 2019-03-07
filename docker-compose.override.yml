@@ -1,0 +1,8 @@
+version: '3'
+services:
+  nginx-web:
+    volumes:
+      - ./proxy.conf:/etc/nginx/proxy.conf
+  nginx-gen:
+    volumes:
+      - ./proxy.conf:/etc/nginx/proxy.conf
