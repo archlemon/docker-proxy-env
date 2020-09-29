@@ -1,6 +1,6 @@
 #/bin/bash
 
-PROXY_PATH=/cnt/proxy
+PROXY_PATH=/cnt/.proxy
 PWD=$(pwd)
 
 if [ ! -d /cnt ]
